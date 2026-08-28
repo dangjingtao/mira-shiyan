@@ -8,13 +8,15 @@
 
 本仓库**不是**拾言产品、任务状态、数据模型或流程的真相源。
 
-唯一真相位于：
+唯一真相位于 `dangjingtao/uichat-mira-mobile` 的 `dev` 分支：
 
-`dangjingtao/uichat-mira-mobile` → `docs/shiyan/README.md`
+- 产品基线：`docs/shiyan/PRD.md`
+- 技术基线：`docs/shiyan/TECHNICAL_DESIGN.md`
+- 跨仓库治理：`docs/shiyan/README.md`
 
-Canonical URL：
+Canonical directory:
 
-https://github.com/dangjingtao/uichat-mira-mobile/blob/dev/docs/shiyan/README.md
+https://github.com/dangjingtao/uichat-mira-mobile/tree/dev/docs/shiyan
 
 ## 边界
 
@@ -22,8 +24,9 @@ https://github.com/dangjingtao/uichat-mira-mobile/blob/dev/docs/shiyan/README.md
 - Git commit history 作为已投递文档的可信历史。
 - 不把本仓库当作 CaptureTask 数据库。
 - 不把本仓库当作 Transcript / Draft 的唯一存储。
-- 不在这里独立定义拾言产品行为。
+- 不在这里独立定义拾言产品行为或技术合同。
+- 投递成功后应能返回真实文件 URL 与 commit SHA，供拾言历史任务保存 canonical link。
 
-如果内容目录、Frontmatter、投递语义等修改会影响拾言产品或跨仓库合同，必须先更新并评审 Mobile canonical spec，再修改本仓库。
+如果内容目录、Frontmatter、文件命名或投递语义等修改会影响拾言产品或跨仓库合同，必须先更新并评审 Mobile canonical truth，再修改本仓库。
 
-修改完成后需检查本仓库行为仍与 Mobile canonical spec 一致。
+修改完成后需对照 `PRD.md`、`TECHNICAL_DESIGN.md` 与治理 `README.md` 做一致性检查。
