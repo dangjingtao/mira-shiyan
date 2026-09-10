@@ -8,7 +8,7 @@
 
 本仓库**不是**拾言产品、任务状态、数据模型或流程的真相源。
 
-唯一真相位于 `dangjingtao/uichat-mira-mobile` 的 `dev` 分支：
+唯一真相位于 `uichat-mira/mira-mobile` 的 `dev` 分支：
 
 - 产品基线：`docs/shiyan/PRD.md`
 - 技术基线：`docs/shiyan/TECHNICAL_DESIGN.md`
@@ -17,7 +17,7 @@
 
 Canonical directory:
 
-https://github.com/dangjingtao/uichat-mira-mobile/tree/dev/docs/shiyan
+https://github.com/uichat-mira/mira-mobile/tree/dev/docs/shiyan
 
 ## Destination 内容约定
 
